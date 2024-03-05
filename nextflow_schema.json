@@ -15,7 +15,7 @@
                 "aci": {
                     "type": "boolean",
                     "description": "Specifies if process should be used",
-                    "default": true
+                    "default": false
                 },
                 "aligner": { 
                     "type": "string", 
@@ -96,7 +96,7 @@
                 },
                 "freyja": { 
                     "type": "boolean",
-                    "default": true,
+                    "default": false,
                     "description": "Specifies if process should be used"
                 },
                 "freyja_aggregate": { 
@@ -228,7 +228,7 @@
                 },
                 "minimum_depth": { 
                     "type": "number",
-                    "default": 100,
+                    "default": 30,
                     "description": "minimum depth for calling a variant"
                 },
                 "mpileup_depth": { 
@@ -318,7 +318,7 @@
                 },
                 "primer_set": { 
                     "type": "string",
-                    "default": "ncov_V4",
+                    "default": "ncov_V5.3.2",
                     "description": "Specifies a primer set included in repo",
                     "enum": [
                         "midnight_idt_V1", 
@@ -401,7 +401,7 @@
                 },
                 "samtools_plot_ampliconstats": { 
                     "type": "boolean",
-                    "default": true,
+                    "default": false,
                     "description": "Specifies if process should be used"
                 },
                 "samtools_plot_ampliconstats_options": { 
