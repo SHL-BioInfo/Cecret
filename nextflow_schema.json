@@ -194,7 +194,7 @@
                 },
                 "kraken2_db": { 
                     "type": "string",
-                    "default": "false",
+                    "default": false,
                     "description": "directory to kraken2 database"
                 },
                 "kraken2_options": { 
