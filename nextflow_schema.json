@@ -347,7 +347,12 @@
                     "description": "Specifies if subworkflow should be used"
                 },
                 "sample_sheet": { 
-                    "type": "string", 
+                    "type": "string",
+                    "format": "file-path",
+                    "mimetype": "text/csv",
+                    "pattern": "^\\S+\\.csv$",
+                    "schema": "assets/schema_input.json",
+                    "fa_icon": "fas fa-file-csv", 
                     "description": "sample sheet with sample, fastq_1, and fastq_2 columns"
                 },
                 "samtools_ampliconclip_options": { 
