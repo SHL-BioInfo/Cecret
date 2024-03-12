@@ -101,7 +101,7 @@
                 },
                 "freyja_aggregate": { 
                     "type": "boolean",
-                    "default": true,
+                    "default": false,
                     "description": "Specifies if process should be used"
                 },
                 "freyja_aggregate_options": { 
@@ -213,12 +213,12 @@
                 },
                 "maxcpus": { 
                     "type": "string",
-                    "default": 8,
+                    "default": 16,
                     "description": "maximum number of cpus per process"
                 },
                 "medcpus": { 
                     "type": "string",
-                    "default": 4,
+                    "default":8,
                     "description": "medium amount of cpus for some processes"
                 },
                 "minimap2_options": { 
