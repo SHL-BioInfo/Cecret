@@ -130,7 +130,7 @@ params.samtools_stats                       = true
 params.samtools_coverage                    = true
 params.samtools_depth                       = true
 params.samtools_flagstat                    = true
-params.samtools_ampliconstats               = true
+params.samtools_ampliconstats               = false
 params.samtools_plot_ampliconstats          = true
 params.markdup                              = false
 params.filter                               = false
@@ -185,8 +185,8 @@ params.kraken2_options                      = ''
 params.download_nextclade_dataset           = true
 
 //# organism specific
-params.freyja                               = true
-params.freyja_aggregate                     = true
+params.freyja                               = false
+params.freyja_aggregate                     = false
 params.nextclade                            = true
 params.pangolin                             = true
 params.pango_collapse                       = true
