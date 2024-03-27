@@ -29,6 +29,11 @@
                         "mpx_idt"
                     ]
                 },
+                "outdir": { 
+                    "type": "string",
+                    "default": "s3://tower-work-ia-shl/cecret_outdir",
+                    "description": "Specifies where results are saved"
+                },
                 "sample_sheet": { 
                     "type": "string",
                     "format": "file-path",
