@@ -278,7 +278,7 @@
                 },
                 "outdir": { 
                     "type": "string",
-                    "default": "cecret",
+                    "default": "s3://tower-work-ia-shl/cecret_outdir",
                     "description": "Specifies where results are saved"
                 },
                 "pango_collapse":{
