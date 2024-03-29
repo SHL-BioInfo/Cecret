@@ -278,7 +278,7 @@
                 },
                 "outdir": { 
                     "type": "string",
-                    "default": "s3://tower-work-ia-shl/cecret_outdir/!WORKFLOW NAME!",
+                    "default": "s3://tower-work-ia-shl/cecret_outdir/&WORKFLOW NAME",
                     "description": "Specifies where results are saved"
                 },
                 "pango_collapse":{
